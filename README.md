@@ -10,6 +10,9 @@ ESP8266 communication interface using SpringBoot with MVC arhitecture
 | Wires  | Simple cooper wires to connect the components  |
 | DHT11 | Temperature and huimidity sensor  |
 | Breadbord | A board where all the components are connected  |
+| Micro-USB | To connect the PC/Laptop to the controller  |
+
+
 
   # CIRCUIT DIAGRAM
   <img width="731" alt="DOCS" src="https://github.com/MisuStefanLeonard/ESP8266-Java/assets/101972228/b7482d4b-dafd-46cf-b9c7-f5bbfea9e570">
@@ -23,6 +26,7 @@ ESP8266 communication interface using SpringBoot with MVC arhitecture
 | MySQL  | Latest version you can get  |
 | SpringBoot | Check the pom.xml and switch to the latest version  |
 | Spring Security | Latest version , automatically inherited from SpringBoot parent  |
+| Arduino IDE | To upload the code into the controller   |
 
 
 # DATABASE DIAGRAM
