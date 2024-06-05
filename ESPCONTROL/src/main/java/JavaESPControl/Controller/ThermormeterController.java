@@ -41,19 +41,6 @@ public class ThermormeterController {
     }
     
     
-//    public CompletableFuture<String> getMessageFromESP(Socket connSocket) {
-//        return CompletableFuture.supplyAsync(() -> {
-//            try {
-//                InputStreamReader input = new InputStreamReader(connSocket.getInputStream());
-//                BufferedReader bf_reader = new BufferedReader(input);
-//                String message = bf_reader.readLine();
-//                return message;
-//            } catch (IOException e) {
-//                throw new RuntimeException("Error while reading message from ESP", e);
-//            }
-//        });
-//    }
-    
     @GetMapping("/mainpage")
     public String welcome(@AuthenticationPrincipal UserDetails userDetails 
                         , Model model , HttpServletRequest request , HttpSession session) throws IOException{

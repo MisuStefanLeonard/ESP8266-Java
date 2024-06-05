@@ -28,8 +28,7 @@ public class ESP8266connection{
     
     public ESP8266connection() throws IOException {
         // the address of your local WI-FI from the .ino file AFTER CONNECTION
-        // 172.20.10.2
-        ESPIpV4 = InetAddress.getByName("172.20.10.2");
+        
     }
     
     
