@@ -11,12 +11,10 @@ DHT11 dht11(2);
 
 int LedPin = 0;
 int port = 5055;
-//const char* ssid = "TP-Link_0E3C";
-const char* ssid = "misu";
-// const char* ssid = "Misu";
-//const char* password = "66976578";
-const char* password = "misu30@12";
-// const char* password = "FamiliaMisu21";
+
+const char* ssid = "" /* your ssid here */;
+const char* password = "" /* your ssid  password here */;
+
 WiFiServer server(port);
 
 void sendSensor(){
